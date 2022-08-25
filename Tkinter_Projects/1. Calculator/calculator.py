@@ -8,6 +8,8 @@ root.maxsize(height=423,width=297)
 root.minsize(height=423,width=297)
 root.title("Simple Calculator")
 
+root.iconphoto(False,PhotoImage(file='calculatoricon.ico'))
+
 f_num=StringVar()
 f_num.set("")
 
